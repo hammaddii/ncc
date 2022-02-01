@@ -108,3 +108,11 @@ header {
     border-top-right-radius: 20px;
     background-color: #a5a5a5;
 }
+
+.search {
+    color: #222;
+    text-align: center;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
