@@ -1,0 +1,109 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e4f8f8;
+    width: 100vw;
+}
+
+a {
+    /*remove alzhimer's*/
+    text-decoration: none;
+}
+
+ul {
+    /*remove bullets*/
+    list-style: none;
+}
+
+
+/* header */
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+}
+
+.logo,
+.menu_item,
+.toggleMenu {
+    /* menu button color */
+    color: #b4b4b4;
+}
+
+.logo {
+    font-size: 1.75em;
+}
+
+.logo img {
+    width: 125px;
+}
+
+.menu {
+    /* straight line */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu .menu_item {
+    padding: 5px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+.menu .menu_item::before {
+    position: absolute;
+    content: '';
+    width: 0%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #dbdbdb;
+    transition: width 0.19s ease-out;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+.menu .menu_item:hover::before {
+    width: 100%;
+}
+
+.menu .menu_item a {
+    color: #555;
+}
+
+.toggleMenu {
+    font-size: 1.75em;
+    cursor: pointer;
+    display: none !important;
+}
+
+.register_btn {
+    padding: 10px 20px;
+    background-color: #dbdbdb;
+    text-align: center;
+    font-size: 18px;
+    color: #222;
+    font-weight: 500px;
+    border-radius: 2px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: all 0.19s ease-in-out;
+}
+
+.register_btn:hover {
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
