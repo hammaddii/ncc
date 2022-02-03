@@ -8,12 +8,15 @@
 :root {
     --rope: #dbdbdb;
     --main: #e4f8f8;
+    --secondary: #aeebeb;
+    --menu: #555;
 }
 
 body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--main);
     width: 100vw;
+    overflow: hidden;
 }
 
 a {
@@ -41,7 +44,7 @@ header {
 .menu_item,
 .toggleMenu {
     /* menu button color */
-    color: #b4b4b4;
+    color: var(--rope);
 }
 
 .logo {
@@ -84,7 +87,7 @@ header {
 }
 
 .menu .menu_item a {
-    color: #555;
+    color: var(--menu);
 }
 
 .toggleMenu {
@@ -111,7 +114,7 @@ header {
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 20px;
     border-top-right-radius: 20px;
-    background-color: #a5a5a5;
+    background-color: var(--secondary);
 }
 
 .search {
@@ -126,7 +129,7 @@ header {
 
 .search i {
     font-size: 19.8px;
-    color: #555;
+    color: var(--menu);
     margin-right: 10px;
 }
 
@@ -140,5 +143,60 @@ header {
 }
 
 ::placeholder {
-    color: #555;
+    color: var(--menu);
+}
+
+.clsBtn {
+    display: none;
+}
+
+@media only screen and (max-width: 500px) {
+    .toggleMenu {
+        display: block !important;
+    }
+    .clsBtn {
+        display: block;
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        top: 10%;
+        left: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--menu);
+        cursor: pointer;
+    }
+    .clsBtn i {
+        font-size: 1.75rem;
+        animation: spin 1s;
+    }
+    .clsBtn:hover i {
+        animation: spin 1s infinite
+    }
+    .menu {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0px;
+        right: -100%;
+        background-color: var(--secondary);
+        width: 50%;
+        height: 100vh;
+        opacity: 0.7;
+        transition: right 0.3s ease-in-out;
+    }
+    .menu.show {
+        right: 0%;
+    }
+    .menu .menu_item {
+        margin: 20px 0px;
+    }
+    .menu .menu_item a {
+        font-size: 23px;
+    }
+    header {
+        padding: 10px 20px;
+        position: relative;
+    }
 }
