@@ -5,9 +5,14 @@
     box-sizing: border-box;
 }
 
+:root {
+    --rope: #dbdbdb;
+    --main: #e4f8f8;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #e4f8f8;
+    background-color: var(--main);
     width: 100vw;
 }
 
@@ -67,7 +72,7 @@ header {
     width: 0%;
     height: 100%;
     border-radius: 5px;
-    background-color: #dbdbdb;
+    background-color: var(--rope);
     transition: width 0.19s ease-out;
     z-index: -1;
     top: 0;
@@ -90,7 +95,7 @@ header {
 
 .register_btn {
     padding: 10px 41px;
-    background-color: #dbdbdb;
+    background-color: var(--rope);
     text-align: center;
     font-size: 18px;
     color: #222;
@@ -114,8 +119,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    border: 1px solid #888;
+    border: 1px solid var(--rope);
     border-radius: 5px;
+    background-color: var(--rope);
 }
 
 .search i {
@@ -125,10 +131,14 @@ header {
 }
 
 .search input {
-    background: transparent;
+    background: var(--rope);
     border: none;
     outline: none;
     width: 100%;
     height: 100%;
     font-weight: 500;
+}
+
+::placeholder {
+    color: #555;
 }
