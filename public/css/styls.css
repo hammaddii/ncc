@@ -240,6 +240,87 @@ section {
     transition: transform 1s ease-in-out;
 }
 
+.content .goDwn i {
+    font-size: 40px;
+    color: var(--menu);
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.infoCont {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 80px;
+}
+
+.infoCont p {
+    font-size: 2rem;
+    color: var(--font);
+    letter-spacing: 1px;
+}
+
+.infoCont p span {
+    display: block;
+    font-size: 2.3rem;
+    color: var(--menu);
+}
+
+.infoCont p .small {
+    font-size: 0.89rem;
+    color: white;
+}
+
+.infoCont .icn {
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+}
+
+.infoCont .icn i {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: var(--rope);
+    font-size: 35px;
+    transition: all 0.3s ease-in-out;
+}
+
+.infoCont .icn i:hover {
+    color: var(--secondary);
+}
+
+.inforCards {
+    width: 100%;
+    margin-top: 80px;
+    padding: 0px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-y: scroll;
+}
+
+.inforCards::-webkit-scrollbar {
+    display: none;
+}
+
+.cards {
+    width: 240px;
+    min-width: 240px;
+    height: 290px;
+    background-color: var(--menu);
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
 @keyframes upSide {
     0% {
         transform: translateY(0px);
@@ -250,11 +331,6 @@ section {
     100% {
         transform: translateY(0px);
     }
-}
-
-.content .goDwn i {
-    font-size: 40px;
-    color: var(--menu);
 }
 
 @media only screen and (max-width: 500px) {
