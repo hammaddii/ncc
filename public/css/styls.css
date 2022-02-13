@@ -12,6 +12,7 @@
     --menu: #abb8f7;
     --heading: #ff0000;
     --font: #dadffa;
+    --card: #faecec;
 }
 
 body {
@@ -19,6 +20,10 @@ body {
     background-color: var(--main);
     width: 100vw;
     overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 a {
@@ -306,19 +311,49 @@ section {
     align-items: center;
     justify-content: space-between;
     overflow-y: scroll;
+    scroll-behavior: smooth;
 }
 
 .inforCards::-webkit-scrollbar {
     display: none;
 }
 
-.cards {
+.card {
     width: 240px;
     min-width: 240px;
     height: 290px;
     background-color: var(--menu);
     border-radius: 10px;
     margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 8px;
+}
+
+.card img {
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+}
+
+.card p {
+    font-size: 15px;
+    text-align: left;
+    font-weight: 500;
+    color: var(--card);
+}
+
+.card a {
+    color: var(--main);
+    padding: 1px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.card a:hover {
+    color: var(--heading);
 }
 
 @keyframes upSide {
@@ -385,5 +420,8 @@ section {
     }
     .content p {
         font-size: 1.75rem;
+    }
+    .icn {
+        display: none !important;
     }
 }
