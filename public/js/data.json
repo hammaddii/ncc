@@ -1,0 +1,36 @@
+[{
+        "id": 1,
+        "name": "Dumbell",
+        "imgSrc": "../img/dumbell.png",
+        "price": "60 QR",
+        "description": "Nice dumbells"
+    },
+    {
+        "id": 2,
+        "name": "Dumbell",
+        "imgSrc": "../img/dumbell.png",
+        "price": "60 QR",
+        "description": "Nice dumbells"
+    },
+    {
+        "id": 3,
+        "name": "Dumbell",
+        "imgSrc": "../img/dumbell.png",
+        "price": "60 QR",
+        "description": "Nice dumbells"
+    },
+    {
+        "id": 4,
+        "name": "Dumbell",
+        "imgSrc": "../img/dumbell.png",
+        "price": "60 QR",
+        "description": "Nice dumbells"
+    },
+    {
+        "id": 5,
+        "name": "Dumbell",
+        "imgSrc": "../img/dumbell.png",
+        "price": "60 QR",
+        "description": "Nice dumbells"
+    }
+]
