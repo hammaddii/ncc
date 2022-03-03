@@ -1,9 +1,9 @@
 [{
         "id": 1,
-        "name": "Dumbell",
+        "name": "Chalk Dumbells",
         "imgSrc": "../img/dumbell.png",
         "price": "60 QR",
-        "description": "Nice dumbells"
+        "description": "A set of 2 dumbells with adjustable 15KG weights each."
     },
     {
         "id": 2,
@@ -21,13 +21,6 @@
     },
     {
         "id": 4,
-        "name": "Dumbell",
-        "imgSrc": "../img/dumbell.png",
-        "price": "60 QR",
-        "description": "Nice dumbells"
-    },
-    {
-        "id": 5,
         "name": "Dumbell",
         "imgSrc": "../img/dumbell.png",
         "price": "60 QR",

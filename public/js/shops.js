@@ -3,7 +3,7 @@ window.onload = () => {
 }
 
 const getData = () => {
-    fetch('../js/data.json').then((Response) => {
+    fetch('../js/shop.json').then((Response) => {
         return Response.json()
     }).then((data) => {
         buildData(data)
