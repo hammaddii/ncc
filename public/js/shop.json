@@ -2,22 +2,22 @@
         "id": 1,
         "name": "Chalk Dumbells",
         "imgSrc": "../img/dumbell.png",
-        "price": "60 QR",
-        "description": "A set of 2 dumbells with adjustable 15KG weights each."
+        "price": "70 QR",
+        "description": "A set of 2 dumbells with fixed 15KG weights each."
     },
     {
         "id": 2,
-        "name": "Dumbell",
-        "imgSrc": "../img/dumbell.png",
-        "price": "60 QR",
-        "description": "Nice dumbells"
+        "name": "Rogue Ohio Deadlift Barbells",
+        "imgSrc": "../img/barbell.png",
+        "price": "160 QR",
+        "description": "A deadlift rod with barbell adjustable weights upto 100KG each."
     },
     {
         "id": 3,
-        "name": "Dumbell",
-        "imgSrc": "../img/dumbell.png",
-        "price": "60 QR",
-        "description": "Nice dumbells"
+        "name": "Apple Watch 7 45mm",
+        "imgSrc": "../img/appwatch.png",
+        "price": "1600 QR",
+        "description": "45mm Series 7 Apple watch with sports band or velcro strap."
     },
     {
         "id": 4,

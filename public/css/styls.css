@@ -643,6 +643,7 @@ section {
 .shopBox .content p {
     font-size: 14px;
     color: #999;
+    text-align: left;
 }
 
 @media only screen and (max-width: 500px) {
