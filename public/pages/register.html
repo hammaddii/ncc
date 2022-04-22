@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="shortcut icon" href="../img/slogo.png" />
+    <link rel="stylesheet" href="../css/styls.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+
+    <!-- Header Starts  -->
+    <header class="layout">
+        <!-- logo -->
+        <a href="../index.html" class="logo"><img src="../img/logo2.png" alt=""></a>
+        <!-- list -->
+        <ul class="menu">
+            <div class="clsBtn"><i class='bx bx-x'></i></div>
+            <li class="menu_item"><a href="./info.html">Info</a></li>
+            <li class="menu_item"><a href="./workshop.html">Workshop</a></li>
+            <li class="menu_item"><a href="./wanted.html">Wanted</a></li>
+            <li class="menu_item"><a href="./gallery.html">Gallery</a></li>
+            <li class="menu_item"><a href="./featured.html">Featured</a></li>
+            <li class="menu_item"><a href="./contact.html">Contact</a></li>
+        </ul>
+
+        <a href="../index.html" class="register_btn">Back Home</a>
+
+        <!-- Toggle Menu Icon -->
+        <i class='bx bx-menu-alt-right toggleMenu'></i>
+
+    </header>
+    <!-- Header Ends -->
+    <main>
+        <section class="register">
+            <form action="" class="registerForm">
+                <div class="alertSuccess">
+                    <p>You account has been created</p>
+                </div>
+
+                <div class="inputBox">
+                    <input type="email" id="emailid" placeholder="Email" required />
+                </div>
+                <div class="inputBox">
+                    <input type="password" id="passwd" placeholder="Password" required />
+                </div>
+                <div class="inputBox">
+                    <input type="password" id="confirm_passwd" placeholder="Confirm Password" required />
+                </div>
+
+                <button type="button" id="registerBtn">Register</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/register.js"></script>
+</body>
+
+</html>
