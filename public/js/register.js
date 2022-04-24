@@ -1,11 +1,11 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyDtbewcrabNcH_uyvRViG4RPhNVP3C_jPw",
-    authDomain: "ncc-assignment.firebaseapp.com",
-    databaseURL: "https://ncc-assignment-default-rtdb.firebaseio.com",
-    projectId: "ncc-assignment",
-    storageBucket: "ncc-assignment.appspot.com",
-    messagingSenderId: "1050366381555",
-    appId: "1:1050366381555:web:2131e2543ee1f619df5686"
+    apiKey: "AIzaSyBeMj78peYmOzuTkB6V0kRJ8pn5yHdKDLc",
+    authDomain: "ncc-project-28be4.firebaseapp.com",
+    databaseURL: "https://ncc-project-28be4-default-rtdb.firebaseio.com",
+    projectId: "ncc-project-28be4",
+    storageBucket: "ncc-project-28be4.appspot.com",
+    messagingSenderId: "528201683158",
+    appId: "1:528201683158:web:220fc3d94916d285eab977"
 };
 firebase.initializeApp(firebaseConfig);
 
