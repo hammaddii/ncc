@@ -69,3 +69,31 @@ closeBtn.addEventListener('click', () => {
 openBtn.addEventListener('click', () => {
     document.getElementById('loginModel').style.display = 'flex'
 })
+
+window.addEventListener('load', () => {
+
+    const login_content = document.getElementById('login_content');
+
+    const userInfo = JSON.parse(localStorage.getItem('user'))
+    console.log(userInfo)
+
+    if (userInfo) {
+        var userContent = "";
+        userContent += `
+            <div class="userInfoStyles">
+                <div class="userImg">${userInfo.email[0]}</div>
+                <p>${userInfo.email}</p>
+            </div>
+        `
+        login_content.innerHTML = userContent;
+    } else {
+        var signIn = '';
+        signIn += `
+            <p id="login_modal_btn">Sign In </p>
+        `
+        login_content.innerHTML = signIn
+        document.getElementById('login_modal_btn').addEventListener('click', () => {
+            document.getElementById('loginModel').style.display = 'flex'
+        })
+    }
+})

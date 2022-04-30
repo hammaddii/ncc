@@ -492,6 +492,14 @@
      margin: 80px 0px;
  }
  
+ .clothsIntro {
+     display: flex;
+     justify-content: left;
+     align-items: left;
+     padding: 20px;
+     padding-right: 50px;
+ }
+ 
  .imgBx {
      display: flex;
      justify-content: center;
@@ -531,9 +539,26 @@
      margin-bottom: 10px;
  }
  
+ .infoContentW p {
+     font-size: 17px;
+     margin: 0;
+     padding: 0;
+     color: var(--font);
+     margin-bottom: 10px;
+     padding: 10px;
+ }
+ 
  .headi {
      color: var(--heading);
      font-size: 2.5rem;
+ }
+ 
+ .headiw {
+     color: var(--heading);
+     font-size: 2.85rem;
+     align-items: center;
+     justify-content: center;
+     display: flex;
  }
  /* contact page */
  
