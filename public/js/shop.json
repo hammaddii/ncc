@@ -2,28 +2,63 @@
         "id": 1,
         "name": "Chalk Dumbells",
         "imgSrc": "../img/dumbell.png",
-        "price": "70 QR",
-        "description": "A set of 2 dumbells with fixed 15KG weights each."
+        "price": "70",
+        "description": "Set of 2 dumbells with fixed 15KG weights each."
     },
     {
         "id": 2,
         "name": "Rogue Ohio Deadlift Barbells",
         "imgSrc": "../img/barbell.png",
-        "price": "160 QR",
-        "description": "A deadlift rod with barbell adjustable weights upto 100KG each."
+        "price": "160",
+        "description": "Deadlift rod with barbell adjustable weights upto 100KG each."
     },
     {
         "id": 3,
-        "name": "Apple Watch 7 45mm",
+        "name": "Apple Watch 7",
         "imgSrc": "../img/appwatch.png",
-        "price": "1600 QR",
+        "price": "1600",
         "description": "45mm Series 7 Apple watch with sports band or velcro strap."
     },
     {
         "id": 4,
-        "name": "Dumbell",
-        "imgSrc": "../img/dumbell.png",
-        "price": "60 QR",
-        "description": "Nice dumbells"
+        "name": "Treadmill",
+        "imgSrc": "../img/shop4.jpg",
+        "price": "2650",
+        "description": "Treadmill with multiple speeds and racks of weights."
+    },
+    {
+        "id": 5,
+        "name": "Whey Protein",
+        "imgSrc": "../img/whey.jpg",
+        "price": "50",
+        "description": "Assorted premium whey protein powders  with multiple flavour and formulas."
+    },
+    {
+        "id": 6,
+        "name": "Energy mix",
+        "imgSrc": "../img/gfuel.jpg",
+        "price": "60",
+        "description": "Assorted flavoured energy drink powder mixes."
+    },
+    {
+        "id": 7,
+        "name": "Oura Ring 3",
+        "imgSrc": "../img/fring.jpg",
+        "price": "100",
+        "description": "Oura ring 3 with health tracking and fitness sensors."
+    },
+    {
+        "id": 8,
+        "name": "Gloves",
+        "imgSrc": "../img/gllove.jpg",
+        "price": "50",
+        "description": "Grip gloves for lifting weights and knuckle protection."
+    },
+    {
+        "id": 9,
+        "name": "Running Shoes",
+        "imgSrc": "../img/rshoe.jpg",
+        "price": "150",
+        "description": "Running shoes for all environments with odour and sweat absorbant."
     }
 ]
