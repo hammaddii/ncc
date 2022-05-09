@@ -59,6 +59,7 @@ loginBtn.addEventListener('click', () => {
         .signInWithEmailAndPassword(log_emailId, log_passwd)
         .then((userCred) => {
             localStorage.setItem('user', JSON.stringify(userCred.user))
+            window.location.reload()
         })
 })
 
@@ -86,14 +87,19 @@ window.addEventListener('load', () => {
             </div>
         `
         login_content.innerHTML = userContent;
+        document.getElementById('openBtn').style.display = 'none'
     } else {
-        var signIn = '';
-        signIn += `
-            <p id="login_modal_btn">Sign In </p>
-        `
-        login_content.innerHTML = signIn
-        document.getElementById('login_modal_btn').addEventListener('click', () => {
-            document.getElementById('loginModel').style.display = 'flex'
-        })
+        document.getElementById('openBtn').style.display = 'block'
+    }
+})
+
+
+window.addEventListener('scroll', () => {
+    var navbar = document.querySelector('header');
+    var scrolView = window.scrollY;
+    if (scrolView < 160) {
+        document.querySelector('header').style.background = 'transparent'
+    } else {
+        document.querySelector('header').style.background = '#2b2c2c'
     }
 })
